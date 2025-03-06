@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        h2 {
+            color: brown;
+        }
+    </style>
+</head>
+<body style="font-family: Arial, sans-serif; text-align: none; margin: 20px; background-color: rgb(238, 238, 238);">
+
+    <h1 style="text-align: center; color: rgb(220, 112, 220); text-decoration-line: overline underline;">My Portfolio</h1>
+
+    <nav style="text-align: center; font-weight: bold;">
+        <ul style="list-style: none; padding: 0;">
+            <li style="display: inline; margin: 0 10px;"><a href="#about">About Me</a></li>
+            <li style="display: inline; margin: 0 10px;"><a href="#projects">Projects</a></li>
+            <li style="display: inline; margin: 0 10px;"><a href="#qualification">Qualification</a></li>
+            <li style="display: inline; margin: 0 10px;"><a href="#contact">Contact Me</a></li>
+        </ul>
+    </nav>
+
+    <br><br>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! My name is <b>Ghulam Fatima</b>. I have completed a 3-year diploma in software engineering, and I am currently enhancing my skills through various courses. I am enrolled in a Core Java course, a full-stack web development program, and an SQL course. In addition to coding, I am also interested in digital marketing.</p>
+        <p>My goal is to become a proficient software engineer and web developer. I am dedicated to continuous learning and personal growth.</p>
+    </section>
+
+    <br>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <ol style="list-style: star;">
+            <li>
+                <ul>
+                    <h3 style="color: blue;">Hotel Management System</h3>
+                    <li><p>A Java-based application using NetBeans Java GUI, Java Swing, and SQL database to manage hotel bookings,
+                         guest details, and staff records efficiently.</p></li>
+                    <li><p><strong>Technologies Used:</strong> Java, NetBeans, Swing, SQL</p></li>
+                </ul>
+            </li>
+            <li>
+                <ul>
+                    <h3 style="color: blue;">E-Commerce Website</h3>
+                    <li><p>A full-stack e-commerce website that allows users to browse products, add them to a cart, 
+                    and complete purchases securely.</p></li>
+                    <li><p><strong>Technologies Used:</strong> HTML, CSS, JavaScript, React, Node.js, MongoDB</p></li>
+                </ul>
+            </li>
+            <li>
+                <ul>
+                    <h3 style="color: blue;" >Online Learning Platform</h3>
+                    <li><p>A web-based platform that offers online courses with video lectures, quizzes, 
+                    and certification upon course completion.</p></li>
+                    <li><p><strong>Technologies Used:</strong> PHP, MySQL, Bootstrap, Laravel</p></li>
+                </ul>
+            </li>
+        </ol>
+    </section>
+
+    <br>
+
+    <section id="qualification">
+        <h2>My Qualification</h2>
+        <table border="1" style="width: 100%; border-collapse: collapse; margin-top: 10px;">
+            <tr>
+                <th style="background-color: #96c6b2;">Qualification</th>
+                <th style="background-color: #96c6b2;">Institution</th>
+            </tr>
+            <tr>
+                <td>Intermediate</td>
+                <td>Government Degree Girls College</td>
+            </tr>
+                <tr>
+                <td>Diploma in Software Engineering</td>
+                <td>Government Technical College</td>
+            </tr>
+        </table>      
+    </section>
+
+    <br><br>
+
+    <video width="1050"; height="240" autoplay>
+        <source src="demo.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <br><br>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" name="name" placeholder="Your Name" required style="width: 100%; padding: 8px; margin-top: 5px;"><br>
+            <input type="email" name="email" placeholder="Your Email" required style="width: 100%; padding: 8px; margin-top: 5px;"><br>
+            <textarea name="message" placeholder="Your Message" rows="4" required style="width: 100%; padding: 8px; margin-top: 5px;"></textarea><br>
+            <input type="submit" value="Send Message" style="width: 100%; padding: 8px; margin-top: 5px; background-color: #333; cursor: pointer;">
+        </form>
+    </section>
+
+</body>
+</html>
